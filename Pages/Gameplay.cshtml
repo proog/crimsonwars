@@ -1,0 +1,158 @@
+@page
+@{
+    ViewData["Title"] = "Gameplay";
+}
+
+<div class="container mt-3">
+  <h1 class="display-4 text-center">GAMEPLAY</h1>
+  <p class="lead text-center">How to play.</p>
+
+  <h2>Interface</h2>
+  <p>
+    The game is played by using the keyboard and/or the mouse. There are two play methods: Assisted and Normal.
+  </p>
+
+  <h3>Assisted Mode</h3>
+  <p>
+    Enabled/disabled by clicking the left mouse button on the question mark. This method lets you use menus to access all the actions available for the object selected:
+  </p>
+  <ul>
+    <li>1st click of the left button: selects a unit or a building.</li>
+    <li>2nd click of the left button displays the menu.</li>
+    <li>3rd click of the left button: chooses the command to run.</li>
+    <li>Click of the right button (on the destination): runs the command.</li>
+  </ul>
+  <p>
+    Note: by clicking on the ground with the left button and dragging the cursor (keeping the mouse button pressed), you can select several units. To issue commands, proceed as described above.
+  </p>
+
+  <h3>Normal Mode</h3>
+  <p>
+    The actions are automatic, which therefore depend on the unit's objective.
+  </p>
+  <ul>
+    <li>1st click of the left button: selects the desired unit.</li>
+    <li>Click of the right button: performs the action.</li>
+  </ul>
+
+  <p>
+    Actions available: the following table lists the actions performed by a player's pieces (Engineer's Armored Vehicle or Other) based on the objective that has been assigned to it (Destination / Source).
+  </p>
+  <table class="table table-sm">
+    <thead class="thead-default">
+      <tr>
+        <th>Destination / Source</th>
+        <th>Engineer's Armored Vehicle</th>
+        <th>Other</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Friendly unit</td>
+        <td>Supply</td>
+        <td>Movement</td>
+      </tr>
+      <tr>
+        <td>Enemy unit</td>
+        <td>Movement</td>
+        <td>Attack</td>
+      </tr>
+      <tr>
+        <td>Friendly building</td>
+        <td>Repair</td>
+        <td>Movement</td>
+      </tr>
+      <tr>
+        <td>Enemy building</td>
+        <td>Capture</td>
+        <td>Attack</td>
+      </tr>
+      <tr>
+        <td>Ground</td>
+        <td>Movement</td>
+        <td>Movement</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    Note: you may select several units using the same method as for Assisted Mode.
+  </p>
+
+  <h3>Short-cut keys</h3>
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <ul>
+        <li>F1: Help screen</li>
+        <li>F2: Unit.</li>
+        <li>F3: Com.</li>
+        <li>F4: Prod.</li>
+        <li>TAB: Strategic map</li>
+        <li>BACKSPACE: Full screen / detail view</li>
+        <li>1...9: Construction of object 1 to 9 for the factory selected</li>
+        <li>SHIFT: Activates the selection / de-selection of the pieces</li>
+      </ul>
+    </div>
+    <div class="col-12 col-md-6">
+      <ul>
+        <li>A: Attack</li>
+        <li>C: Capture</li>
+        <li>D: Set a mine</li>
+        <li>F: Supply</li>
+        <li>M: Move toward</li>
+        <li>P: Repair</li>
+        <li>R: Add short-cut</li>
+        <li>T: Cancel short-cut</li>
+      </ul>
+    </div>
+  </div>
+  <p>
+  Note: You may Add (R) or Cancel (T) short-cuts for the units. These short-cuts let you find a piece on the game card very quickly. To do this, select a piece, type R or T and the short-cut appears / disappears from the Unit screen automatically (small empty / full rectangles).
+  </p>
+
+  <h2 class="mt-5">Game screen</h2>
+  <p>There are two screens which can be accessed: Full and Normal.</p>
+
+  <h3>Full Screen</h3>
+  <p>
+    Displays an enlarged game window. When applicable, a symbol appears to indicate waiting messages. A simple click on this symbol brings up the message screen.
+  </p>
+
+  <h3>Normal game screen</h3>
+  <p>Consists of three windows:</p>
+  <ul>
+    <li>View (in top-left corner of the screen). Active only if a piece is selected, it displays a full view of the unit and its features.</li>
+    <li>Multi-Usage (at bottom left). Information about the existing Units (Unit.), Communication (Com.) and current Productions (Prod.) appear here.</li>
+    <li>Surveillance (at right). Lets you follow the battle in progress. This window contains several buttons: Exit (quit the game), Unit., Com., Prod., which can be accessed directly by using the mouse.</li>
+  </ul>
+
+  <div class="text-center">
+    <img class="img-fluid" src="~/img/game.png">
+  </div>
+
+  <h2 class="mt-5">Special notes</h2>
+  <h3>Progression</h3>
+  <p>
+    Crimson Wars is a game which revolves around missions being fulfilled. All these missions depend on an access level: they can only be played if the player has reached this level. The levels are: Sergeant, Lieutenant, Captain, Lieutenant-Colonel, Colonel, General.
+  </p>
+  <p>
+    When the game begins, everyone is a Sergeant. When a mission is completed, the level attained is saved with the player's alias, allowing access to new scenarios in future games.
+  </p>
+
+  <h3>Presentations</h3>
+  <p>
+    In Assisted mode, texts which present the game pieces in summary form appear when you select a unit for the first time.
+  </p>
+
+  <h3>Alliances</h3>
+  <p>
+    You can create Alliances with other people on line (or cancel them during the game). From the communications screen (Com.), click on the <em>Alliance</em> icon to the right of the alias of the player with whom you wish to create an alliance.
+  </p>
+
+  <h3>Chat</h3>
+  <p>
+    You can chat with your challengers or allies at any time. Just click on the alias of the desired recipient, type the message you wish to send him, then click on the appropriate icon to confirm.
+  </p>
+  <p>
+    <em>Editor's note: Multiplayer features are no longer supported due to the online service having shut down.</em>
+  </p>
+</div>
