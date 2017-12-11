@@ -1,11 +1,3 @@
-@functions {
-    private string NavClass(string title)
-    {
-        return ViewData["Title"] == title
-            ? "nav-item active"
-            : "nav-item";
-    }
-}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,22 +5,22 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Unofficial website for the 1999 RTS game Crimson Wars">
-  <title>@ViewData["Title"] | Crimson Wars on the net</title>
+  <meta name="description" content="{{ site.description }}">
+  <title>{{ page.title }} | {{ site.title }}</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <link rel="stylesheet" href="~/css/font-awesome.min.css">
-  <link rel="stylesheet" href="~/css/style.css">
+  <link rel="stylesheet" href="{% link /assets/css/font-awesome.min.css %}">
+  <link rel="stylesheet" href="{% link /assets/css/style.css %}">
 
-  <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="~/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="{% link /favicon.ico %}" type="image/x-icon">
+  <link rel="icon" href="{% link /favicon.ico %}" type="image/x-icon">
 </head>
 
 <body class="text-white">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="~/">
-      <img src="~/img/brand.png" alt="Logo" width="30" height="30">
+    <a class="navbar-brand" href="{% link index.md %}">
+      <img src="{% link /assets/images/brand.png %}" alt="Logo" width="30" height="30">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
@@ -36,29 +28,29 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="@NavClass("Welcome")">
-          <a class="nav-link" href="~/">Welcome</a>
+        <li class="{% if page.title == 'Welcome' %}active{% endif %}">
+          <a class="nav-link" href="{% link index.md %}">Welcome</a>
         </li>
-        <li class="@NavClass("Background")">
-          <a class="nav-link" href="~/background">Background</a>
+        <li class="{% if page.title == 'Background' %}active{% endif %}">
+          <a class="nav-link" href="{% link background.md %}">Background</a>
         </li>
-        <li class="@NavClass("Story")">
-          <a class="nav-link" href="~/story">Story</a>
+        <li class="{% if page.title == 'Story' %}active{% endif %}">
+          <a class="nav-link" href="{% link story.md %}">Story</a>
         </li>
-        <li class="@NavClass("Missions")">
-          <a class="nav-link" href="~/missions">Missions</a>
+        <li class="{% if page.title == 'Missions' %}active{% endif %}">
+          <a class="nav-link" href="{% link missions.md %}">Missions</a>
         </li>
-        <li class="@NavClass("Gameplay")">
-          <a class="nav-link" href="~/gameplay">Gameplay</a>
+        <li class="{% if page.title == 'Gameplay' %}active{% endif %}">
+          <a class="nav-link" href="{% link gameplay.md %}">Gameplay</a>
         </li>
-        <li class="@NavClass("Download")">
-          <a class="nav-link" href="~/download">Download</a>
+        <li class="{% if page.title == 'Download' %}active{% endif %}">
+          <a class="nav-link" href="{% link download.md %}">Download</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  @RenderBody()
+  {{ content }}
 
   <nav class="navbar navbar-dark mt-5">
     <span class="navbar-text small">

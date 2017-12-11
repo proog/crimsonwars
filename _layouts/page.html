@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="container mt-3">
+  <h1 class="display-4 text-center">
+    {% if page.alternate_title %}
+      {{ page.alternate_title | upcase }}
+    {% else %}
+      {{ page.title | upcase }}
+    {% endif %}
+  </h1>
+  <p class="lead text-center">{{ page.tagline }}</p>
+
+  {{ content }}
+
+</div>
