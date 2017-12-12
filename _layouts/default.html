@@ -19,46 +19,52 @@
 
 <body class="text-white">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="{% link index.md %}">
-      <img src="{% link /assets/images/brand.png %}" alt="Logo" width="30" height="30">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="container">
+      <a class="navbar-brand" href="{% link index.md %}">
+        <img src="{% link /assets/images/brand.png %}" alt="Logo" width="30" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="{% if page.title == 'Welcome' %}active{% endif %}">
-          <a class="nav-link" href="{% link index.md %}">Welcome</a>
-        </li>
-        <li class="{% if page.title == 'Background' %}active{% endif %}">
-          <a class="nav-link" href="{% link background.md %}">Background</a>
-        </li>
-        <li class="{% if page.title == 'Story' %}active{% endif %}">
-          <a class="nav-link" href="{% link story.md %}">Story</a>
-        </li>
-        <li class="{% if page.title == 'Missions' %}active{% endif %}">
-          <a class="nav-link" href="{% link missions.md %}">Missions</a>
-        </li>
-        <li class="{% if page.title == 'Gameplay' %}active{% endif %}">
-          <a class="nav-link" href="{% link gameplay.md %}">Gameplay</a>
-        </li>
-        <li class="{% if page.title == 'Download' %}active{% endif %}">
-          <a class="nav-link" href="{% link download.md %}">Download</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="{% if page.title == 'Welcome' %}active{% endif %}">
+            <a class="nav-link" href="{% link index.md %}">Welcome</a>
+          </li>
+          <li class="{% if page.title == 'Background' %}active{% endif %}">
+            <a class="nav-link" href="{% link background.md %}">Background</a>
+          </li>
+          <li class="{% if page.title == 'Story' %}active{% endif %}">
+            <a class="nav-link" href="{% link story.md %}">Story</a>
+          </li>
+          <li class="{% if page.title == 'Missions' %}active{% endif %}">
+            <a class="nav-link" href="{% link missions.md %}">Missions</a>
+          </li>
+          <li class="{% if page.title == 'Gameplay' %}active{% endif %}">
+            <a class="nav-link" href="{% link gameplay.md %}">Gameplay</a>
+          </li>
+          <li class="{% if page.title == 'Download' %}active{% endif %}">
+            <a class="nav-link" href="{% link download.md %}">Download</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  {{ content }}
+  <div class="container mt-3">
+    {{ content }}
+  </div>
 
-  <nav class="navbar navbar-dark mt-5">
-    <span class="navbar-text small">
-      Made with <i class="fa fa-heart"></i> by <a class="link" href="https://permortensen.com/">Per</a> (2017)
-    </span>
-    <span class="navbar-text small">
-      Not affiliated with Infogrames/Atari
-    </span>
+  <nav class="navbar navbar-dark footer">
+    <div class="container">
+      <span class="navbar-text small">
+        Made with <i class="fa fa-heart"></i> by <a class="link" href="https://permortensen.com/">Per</a> (2017)
+      </span>
+      <span class="navbar-text small">
+        Not affiliated with Infogrames/Atari
+      </span>
+    </div>
   </nav>
 
   <!-- Optional JavaScript -->
