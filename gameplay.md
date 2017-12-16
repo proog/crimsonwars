@@ -102,9 +102,7 @@ Consists of three windows:
  - Multi-Usage (at bottom left). Information about the existing Units (Unit.), Communication (Com.) and current Productions (Prod.) appear here.
  - Surveillance (at right). Lets you follow the battle in progress. This window contains several buttons: Exit (quit the game), Unit., Com., Prod., which can be accessed directly by using the mouse.
 
-<div class="text-center">
-  <img class="img-fluid" src="{% link /assets/images/game.png %}" alt="Normal game screen">
-</div>
+<img class="img-fluid rounded d-block mx-auto" src="{% link /assets/images/game.png %}" alt="Normal game screen">
 
 ---
 

@@ -15,7 +15,7 @@ Please note that our intelligence has indicated that various governments are int
 Good luck Sergeant!
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid" src="{% link /assets/maps/mission-cyberscan.png %}" alt="Mission map">
+    <img class="img-fluid rounded" src="{% link /assets/maps/mission-cyberscan.png %}" alt="Mission map">
   </div>
 </div>
 
@@ -31,7 +31,7 @@ Your mission is to take control of the area and allow an Engineering Armoured Ve
 You will be parachuted to a spot near your target. It is up to you to discover the enemy positions and to eliminate them if needed. Good luck!
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid" src="{% link /assets/maps/ambush-on-mount-neptune.png %}" alt="Mission map">
+    <img class="img-fluid rounded" src="{% link /assets/maps/ambush-on-mount-neptune.png %}" alt="Mission map">
   </div>
 </div>
 
@@ -50,7 +50,7 @@ Your troops will be parachuted west of your main target.<br>
 Good luck Sergeant!
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid" src="{% link /assets/maps/raid-on-ostendia.png %}" alt="Mission map">
+    <img class="img-fluid rounded" src="{% link /assets/maps/raid-on-ostendia.png %}" alt="Mission map">
   </div>
 </div>
 
@@ -63,7 +63,7 @@ We need to take the advantage over our enemies. We're going to try an incursion 
 You may form temporary alliances with the enemy, but don't waste time... Your primary goal is to stop their research efforts and give our scientific teams sufficient time to accomplish our own development plans.
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid" src="{% link /assets/maps/alea-jacta-est.png %}" alt="Mission map">
+    <img class="img-fluid rounded" src="{% link /assets/maps/alea-jacta-est.png %}" alt="Mission map">
   </div>
 </div>
 
@@ -78,7 +78,7 @@ We wish to pursue our northern offensive. We need to maintain a powerful logisti
 Tuan-Lee-Lue is home to a new technology, power generators. They accelerate the output potential of your factories while reducing the amount of energy needed to produce units. Controlling one or more of these generators will greatly facilitate your victory!
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid" src="{% link /assets/maps/tuan-lee-lue.png %}" alt="Mission map">
+    <img class="img-fluid rounded" src="{% link /assets/maps/tuan-lee-lue.png %}" alt="Mission map">
   </div>
 </div>
 
@@ -93,7 +93,7 @@ Attention: the motivations of our "allies" are unclear, so they might turn again
 Your mission is to take control of the tank factory, the energy center and two barracks, and to keep them in mint condition until reinforcements arrive.
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid" src="{% link /assets/maps/the-landing.png %}" alt="Mission map">
+    <img class="img-fluid rounded" src="{% link /assets/maps/the-landing.png %}" alt="Mission map">
   </div>
 </div>
 
@@ -108,7 +108,7 @@ Our best option is to go through the canyons situated north east of the port. Ob
 Attention: a last minute report tells us a few Kesh Rhan have allied with the enemy. It looks like they're from the Dead-Head Clan...
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid" src="{% link /assets/maps/canyon-party.png %}" alt="Mission map">
+    <img class="img-fluid rounded" src="{% link /assets/maps/canyon-party.png %}" alt="Mission map">
   </div>
 </div>
 
@@ -122,6 +122,6 @@ Your mission is simple: crush the rebellion, destroy or repossess all enemy inst
 One last detail: the rebels have put in place a VERY efficient defense system, so be prepared for some heavy guerrilla warfare. Our intelligence reports have told us that our enemies are highly interested by Freemancos and the technologies we developed there. You might encounter them. It's your decision, but remember, we must regain control at all costs. Good luck.
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid" src="{% link /assets/maps/cyberscan-expert.png %}" alt="Mission map">
+    <img class="img-fluid rounded" src="{% link /assets/maps/cyberscan-expert.png %}" alt="Mission map">
   </div>
 </div>
