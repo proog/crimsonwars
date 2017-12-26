@@ -1,8 +1,9 @@
 ---
-layout: page-justify
+layout: page
 title: Story
-alternate_title: Crimson Wars
 tagline: In the beginning was CHAOS...
+hide_title: true
+class: text-justify
 ---
 
 <img class="img-fluid rounded d-block mx-auto" src="{% link /assets/images/mars.png %}" alt="Mars">

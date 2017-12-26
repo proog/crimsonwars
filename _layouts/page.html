@@ -2,13 +2,11 @@
 layout: default
 ---
 
-<h1 class="display-4 text-center">
-  {% if page.alternate_title %}
-    {{ page.alternate_title | upcase }}
-  {% else %}
-    {{ page.title | upcase }}
-  {% endif %}
-</h1>
-<p class="lead text-center">{{ page.tagline }}</p>
+{% unless page.hide_title %}
+  <h1 class="display-4 text-center">{{ page.title | upcase }}</h1>
+  <p class="lead text-center">{{ page.tagline }}</p>
+{% endunless %}
 
-{{ content }}
+<div class="{{ page.class }}">
+  {{ content }}
+</div>

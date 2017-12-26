@@ -1,7 +1,8 @@
 ---
-layout: page-justify
+layout: page
 title: Missions
 tagline: Hello, Sergeant.
+class: text-justify
 ---
 
 ## Mission: Cyberscan
