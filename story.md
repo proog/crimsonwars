@@ -6,9 +6,23 @@ hide_title: true
 class: text-justify
 ---
 
+<h1 class="display-4 text-center">Prologue</h1>
+<p class="lead text-center">Chaos Control / Solar Crusade</p>
+
+On March 3, 1972, the Pioneer 10 planetary exploration probe was launched into space with a message including the coordinates of Earth. In the year 2050, long after having left behind the limits of the solar system, Pioneer 10 was still continuing its long cosmic voyage when it suddenly and mysteriously was immobilized and stopped transmitting. On Earth, this silence was interpreted as a transmission failure. That was a fatal mistake: someone had intercepted the imprudent Earth message and was getting ready to make good use of it: the alien *Kesh Rhan* race.
+
+In the year 2071, the aggressive Kesh Rhan ravage human settlements within our solar system. Following devastating battles between the Orbital Defense Force and the Kesh Rhan, the human colonies on Mars and Pluto are completely wiped out. Lt. Jessica Darkhill, top pilot of the ODF, embarks on a heroic mission with her squadron to save Earth from the same fate.
+
+First, a potent computer virus must be stopped dead in its tracks or it will set humanity back to the stone age. Using a special device, Darkhill's brain is connected directly to the alien computer and she is able to destroy the virus from inside the alien system. Next, Darkhill and her squadron manages to destroy the well-defended Kesh Rhan flagship and terminate its Lord Commander Arakh' Kreen. With the fall of the flagship, the rest of the Kesh Rhan fleet can be dealt with safely.
+
+Soon enough, the war is over. The Kesh Rhan forces are obliterated. Earth has been freed from the alien menace. All is well within the Orbital Defense Force... or is it? Lt. Darkhill and company discover a derelict freighter while exploring the remains of the battle near Mars. Upon closer inspection they discover something they wish they never had... the Kesh Rhan are still alive, and they are not giving up without a fight.
+
 <img class="img-fluid rounded d-block mx-auto" src="{% link /assets/images/mars.png %}" alt="Mars">
 
-One hundred sixty-six years have passed since the events described Chaos Control and Solar Crusade. On Mars, the human colonists have cleared the desert for cultivation. Numerous oases have arisen out of the burning sands. Each Oasis, called a Territory, is, by origin, the property of the Mega-corporation which built it.
+<h1 class="display-4 text-center">Crimson Wars</h1>
+<p class="lead text-center">In the beginning was CHAOS...</p>
+
+One hundred sixty-six years have passed since the events described in Chaos Control and Solar Crusade. On Mars, the human colonists have cleared the desert for cultivation. Numerous oases have arisen out of the burning sands. Each Oasis, called a Territory, is, by origin, the property of the Mega-corporation which built it.
 
 There are 6 Mega-corporations:
  - The *Cyber Trek* Mega-corporation
@@ -26,7 +40,7 @@ Earth is trying to defend against the plans of the 4 Mega-corporations (who poss
 
 <img class="img-fluid rounded d-block mx-auto" src="{% link /assets/images/kesh-rhan.png %}" alt="The Kesh Rhan">
 
-But a new element is about to disrupt this delicate balance: several *Kesh Rhan* fleets have arrived in the solar system. The Lord Commanders have stationed their respective fleets in geostationary orbit in our system. Contrary to their customary hostile rivalry, the Aliens of the different fleets are not attacking each other for now. But they are also not showing any desire to reunite...
+But a new element is about to disrupt this delicate balance: several Kesh Rhan fleets have arrived in the solar system. The Lord Commanders have stationed their respective fleets in geostationary orbit in our system. Contrary to their customary hostile rivalry, the Aliens of the different fleets are not attacking each other for now. But they are also not showing any desire to reunite...
 
 There are 4 Kesh Rhan fleets, which are named after their Lord Commander:
  - The *Siir-Karîs* fleet.

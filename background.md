@@ -19,4 +19,4 @@ While searching high and low for information on Oceanline, a curious detail came
 
 From the general absence of information, I would say Oceanline and Crimson Wars were not huge successes. If you're reading this page and happen to have some insight on Oceanline, Crimson Wars, or the online activities of Infogrames at the time, be sure to [drop me a line](https://permortensen.com/about).
 
-One last thing: most of the text in the *story*, *missions* and *gameplay* sections were transcribed from the game and are presented mostly unmodified.
+One last thing: the text in the *story*, *missions* and *gameplay* sections were transcribed from the game and are presented mostly unmodified, with the notable exception of the story prologue which was cobbled together from various marketing blurbs and cutscenes.
