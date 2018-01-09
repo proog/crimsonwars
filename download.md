@@ -2,6 +2,7 @@
 layout: page
 title: Download
 tagline: Try it out.
+order: 6
 ---
 
 ## The game

@@ -2,6 +2,7 @@
 layout: page
 title: Background
 tagline: What's the deal?
+order: 2
 ---
 
 Crimson Wars is a real-time strategy game for the PC that mostly revolves around micro-managing military units on a futuristic, colonized Mars. It was released in 1999 by Infogrames on a CD-ROM along with three bonus games: Backgammon, Diagonal of Aces, and Mini Golf.

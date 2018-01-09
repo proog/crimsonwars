@@ -2,6 +2,7 @@
 layout: page
 title: Missions
 tagline: Hello, Sergeant.
+order: 4
 class: text-justify
 ---
 

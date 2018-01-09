@@ -2,6 +2,7 @@
 layout: page
 title: Gameplay
 tagline: How to play.
+order: 5
 ---
 
 ## Interface

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Welcome
+order: 1
 ---
 
 <div class="embed-responsive embed-responsive-16by9 mb-3">

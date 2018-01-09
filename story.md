@@ -2,6 +2,7 @@
 layout: page
 title: Story
 tagline: In the beginning was CHAOS...
+order: 3
 hide_title: true
 class: text-justify
 ---
