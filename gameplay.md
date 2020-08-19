@@ -24,7 +24,7 @@ The actions are automatic, which therefore depend on the unit's objective.
 
 Actions available: the following table lists the actions performed by a player's pieces (Engineer's Armored Vehicle or Other) based on the objective that has been assigned to it (Destination / Source).
 
-<table class="table table-sm">
+<table class="table table-sm text-light">
   <thead class="thead-default">
     <tr>
       <th>Destination / Source</th>
