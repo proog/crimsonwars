@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% unless hide_title %}
+<h1 class="display-4 text-center">{{ title | upcase }}</h1>
+<p class="lead text-center">{{ tagline }}</p>
+{% endunless %}
+
+<div class="{{ class }}">
+  {{ content }}
+</div>
