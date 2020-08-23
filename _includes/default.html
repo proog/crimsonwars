@@ -27,7 +27,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          {% assign nav = collections.page %}
+          {% assign nav = collections.page | sort: 'data.order' %}
           {% for p in nav %}
             <li {% if page.url == p.url %} class="active" {% endif %}>
               <a class="nav-link" href="{{ p.url }}">{{ p.data.title }}</a>
