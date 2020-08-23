@@ -71,28 +71,25 @@ Note: you may select several units using the same method as for Assisted Mode.
 
 ### Short-cut keys
 
-<div class="row">
-  <div class="col-12 col-md-6" markdown="1">
- - F1: Help screen
- - F2: Unit.
- - F3: Com.
- - F4: Prod.
- - TAB: Strategic map
- - BACKSPACE: Full screen / detail view
- - 1...9: Construction of object 1 to 9 for the factory selected
- - SHIFT: Activates the selection / de-selection of the pieces
-  </div>
-  <div class="col-12 col-md-6" markdown="1">
- - A: Attack
- - C: Capture
- - D: Set a mine
- - F: Supply
- - M: Move toward
- - P: Repair
- - R: Add short-cut
- - T: Cancel short-cut
-  </div>
-</div>
+- F1: Help screen
+- F2: Unit.
+- F3: Com.
+- F4: Prod.
+- TAB: Strategic map
+- BACKSPACE: Full screen / detail view
+- 1...9: Construction of object 1 to 9 for the factory selected
+- SHIFT: Activates the selection / de-selection of the pieces
+
+<!--  -->
+
+- A: Attack
+- C: Capture
+- D: Set a mine
+- F: Supply
+- M: Move toward
+- P: Repair
+- R: Add short-cut
+- T: Cancel short-cut
 
 Note: You may Add (R) or Cancel (T) short-cuts for the units. These short-cuts let you find a piece on the game card very quickly. To do this, select a piece, type R or T and the short-cut appears / disappears from the Unit screen automatically (small empty / full rectangles).
 
