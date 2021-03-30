@@ -9,7 +9,7 @@ tags: page
 Crimson Wars is a real-time strategy game for the PC that mostly revolves around micro-managing military units on a futuristic, colonized Mars. It was released in 1999 by Infogrames on a CD-ROM along with three bonus games: Backgammon, Diagonal of Aces, and Mini Golf.
 This package was marketed as being online-enabled, prominently featuring the title _The Internet Games_. For Crimson Wars, up to four people could join the same game as opposing factions and even chat with each other using an in-game text chat feature.
 
-<img class="img-fluid rounded d-block mx-auto" src="/assets/images/cover.jpg" alt="Crimson Wars game cover">
+<img class="img-fluid rounded d-block mx-auto" src="{{ '/assets/images/cover.jpg' | url }}" alt="Crimson Wars game cover">
 
 Of course, after nearly 20 years, the servers enabling the online features are long gone, and Crimson Wars can no longer be played as a multiplayer game. Fortunately, unlike many games today, it does not require a persistent connection or online activation to play solo.
 

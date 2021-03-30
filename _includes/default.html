@@ -8,18 +8,18 @@
   <title>{{ title }} | {{ site.title }}</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/css/font-awesome.min.css ">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="{{ '/assets/css/font-awesome.min.css' | url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
 
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ '/favicon.ico' | url }}" type="image/x-icon">
+  <link rel="icon" href="{{ '/favicon.ico' | url }}" type="image/x-icon">
 </head>
 
 <body class="text-white">
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="/assets/images/brand.png" alt="Logo" width="30" height="30">
+        <img src="{{ '/assets/images/brand.png' | url }}" alt="Logo" width="30" height="30">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
@@ -28,9 +28,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           {% assign nav = collections.page | sort: 'data.order' %}
-          {% for p in nav %}
-            <li {% if page.url == p.url %} class="active" {% endif %}>
-              <a class="nav-link" href="{{ p.url }}">{{ p.data.title }}</a>
+          {% for navPage in nav %}
+            <li {% if page.url == navPage.url %} class="active" {% endif %}>
+              <a class="nav-link" href="{{ navPage.url }}">{{ navPage.data.title }}</a>
             </li>
           {% endfor %}
         </ul>

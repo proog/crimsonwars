@@ -19,7 +19,7 @@ Good luck Sergeant!
 
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid rounded" src="/assets/maps/mission-cyberscan.png" alt="Mission map">
+    <img class="img-fluid rounded" src="{{ '/assets/maps/mission-cyberscan.png' | url }}" alt="Mission map">
   </div>
 </div>
 
@@ -36,7 +36,7 @@ You will be parachuted to a spot near your target. It is up to you to discover t
 
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid rounded" src="/assets/maps/ambush-on-mount-neptune.png" alt="Mission map">
+    <img class="img-fluid rounded" src="{{ '/assets/maps/ambush-on-mount-neptune.png' | url }}" alt="Mission map">
   </div>
 </div>
 
@@ -56,7 +56,7 @@ Good luck Sergeant!
 
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid rounded" src="/assets/maps/raid-on-ostendia.png" alt="Mission map">
+    <img class="img-fluid rounded" src="{{ '/assets/maps/raid-on-ostendia.png' | url }}" alt="Mission map">
   </div>
 </div>
 
@@ -70,7 +70,7 @@ You may form temporary alliances with the enemy, but don't waste time... Your pr
 
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid rounded" src="/assets/maps/alea-jacta-est.png" alt="Mission map">
+    <img class="img-fluid rounded" src="{{ '/assets/maps/alea-jacta-est.png' | url }}" alt="Mission map">
   </div>
 </div>
 
@@ -86,7 +86,7 @@ Tuan-Lee-Lue is home to a new technology, power generators. They accelerate the 
 
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid rounded" src="/assets/maps/tuan-lee-lue.png" alt="Mission map">
+    <img class="img-fluid rounded" src="{{ '/assets/maps/tuan-lee-lue.png' | url }}" alt="Mission map">
   </div>
 </div>
 
@@ -102,7 +102,7 @@ Your mission is to take control of the tank factory, the energy center and two b
 
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid rounded" src="/assets/maps/the-landing.png" alt="Mission map">
+    <img class="img-fluid rounded" src="{{ '/assets/maps/the-landing.png' | url }}" alt="Mission map">
   </div>
 </div>
 
@@ -118,7 +118,7 @@ Attention: a last minute report tells us a few Kesh Rhan have allied with the en
 
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid rounded" src="/assets/maps/canyon-party.png" alt="Mission map">
+    <img class="img-fluid rounded" src="{{ '/assets/maps/canyon-party.png' | url }}" alt="Mission map">
   </div>
 </div>
 
@@ -133,6 +133,6 @@ One last detail: the rebels have put in place a VERY efficient defense system, s
 
   </div>
   <div class="col-12 col-lg-5 text-center">
-    <img class="img-fluid rounded" src="/assets/maps/cyberscan-expert.png" alt="Mission map">
+    <img class="img-fluid rounded" src="{{ '/assets/maps/cyberscan-expert.png' | url }}" alt="Mission map">
   </div>
 </div>

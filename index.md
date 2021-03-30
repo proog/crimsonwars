@@ -3,7 +3,6 @@ layout: default
 title: Welcome
 order: 1
 tags: page
-date: 2020-01-01
 ---
 
 <div class="embed-responsive embed-responsive-16by9 mb-3">
