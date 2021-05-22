@@ -9,4 +9,5 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setLibrary("liquid", engine);
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("favicon.ico");
 };
