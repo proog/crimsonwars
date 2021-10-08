@@ -8,7 +8,6 @@
   <title>{{ title }} | {{ site.title }}</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ '/assets/css/font-awesome.min.css' | url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
 
   <link rel="shortcut icon" href="{{ '/favicon.ico' | url }}" type="image/x-icon">
@@ -45,7 +44,7 @@
   <nav class="navbar navbar-dark footer">
     <div class="container">
       <span class="navbar-text small">
-        Made with <i class="fa fa-heart"></i> by <a class="link" href="https://permortensen.com/">Per</a> (2017)
+        Made with {% include "heart.html" %} by <a class="link" href="https://permortensen.com/">Per</a> (2017)
       </span>
       <span class="navbar-text small">
         Not affiliated with Infogrames/Atari
