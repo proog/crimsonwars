@@ -9,8 +9,7 @@
     "prebuild": "npm run clean"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "liquidjs": "^9.25.0",
+    "@11ty/eleventy": "^1.0.0-beta.2",
     "rimraf": "^3.0.2"
   }
 }
