@@ -9,7 +9,7 @@
     "prebuild": "npm run clean"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0-beta.2",
+    "@11ty/eleventy": "^1.0.2",
     "rimraf": "^3.0.2"
   }
 }
