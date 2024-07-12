@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
+    "bootstrap": "^4.3.1",
     "rimraf": "^3.0.2"
   }
 }
