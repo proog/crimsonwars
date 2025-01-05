@@ -19,6 +19,6 @@ The official Oceanline website appears to have been active from 1997 to early 20
 
 While searching high and low for information on Oceanline, a curious detail came up on [this page](http://www.legendsworld.net/shooter/game/9579) about another Infogrames title, Stellar Mercenaries: _"It was originally supposed to be available online through 'Oceanline' but the network closed down before it happened. So Infogrames sold the game as a single player game"_. If Oceanline had already closed down by the game's 1997 release, then something doesn't add up about the 1999 release of Crimson Wars and its inclusion on Oceanline. I suspect this page may be in error.
 
-From the general absence of information, I would say Oceanline and Crimson Wars were not huge successes. If you're reading this page and happen to have some insight on Oceanline, Crimson Wars, or the online activities of Infogrames at the time, be sure to [drop me a line](https://permortensen.com/about).
+From the general absence of information, I would say Oceanline and Crimson Wars were not huge successes. If you're reading this page and happen to have some insight on Oceanline, Crimson Wars, or the online activities of Infogrames at the time, be sure to [drop me a line](https://permortensen.com/).
 
 One last thing: the text in the _story_, _missions_ and _gameplay_ sections were transcribed from the game and are presented mostly unmodified, with the notable exception of the story prologue which was cobbled together from various marketing blurbs and cutscenes.
